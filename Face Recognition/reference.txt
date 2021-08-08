@@ -2,3 +2,4 @@ code for face detection was followed and edited from these sources:
 https://realpython.com/face-recognition-with-python/
 https://realpython.com/face-detection-in-python-using-a-webcam/
 https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81
+https://github.com/thecodacus/Face-Recognition   
