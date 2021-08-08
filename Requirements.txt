@@ -1,0 +1,11 @@
+webcam 
+microphone
+Python 3
+
+Libaries needed:
+pyaudio
+pyspeech
+numpy
+cv2
+pybullet
+qibullet
