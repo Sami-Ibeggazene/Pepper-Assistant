@@ -1,4 +1,5 @@
 #HAVE EMPTY dataset AND trainer FOLDERS BEFORE RUNNING facedataset.py, HAVE haarcascade_frontalface_default.xml IN SAME FOLDER AS PROGRAM#
+https://github.com/Itseez/opencv/tree/master/data/haarcascades
 
 1.Use facedataset.py to create a dataset of the face you want recognised and enter an id number 1 larger than the last(starting at 1)
 2.Use facetraining.py to create a yml file from the data
