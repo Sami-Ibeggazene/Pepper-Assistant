@@ -1,14 +1,8 @@
-'''
-Haar Cascade Face detection with OpenCV  
-    Based on tutorial by pythonprogramming.net
-    Visit original post: https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/  
-Adapted by Marcelo Rovai - MJRoBot.org @ 7Feb2018 
-'''
 
 import numpy as np
 import cv2
 
-# multiple cascades: https://github.com/Itseez/opencv/tree/master/data/haarcascades
+# download at https://github.com/Itseez/opencv/tree/master/data/haarcascades
 faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)
