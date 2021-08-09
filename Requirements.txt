@@ -9,3 +9,4 @@ numpy
 cv2
 pybullet
 qibullet
+Pillow
