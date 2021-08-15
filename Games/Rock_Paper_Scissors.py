@@ -34,5 +34,6 @@ while choice == False:
     #player was set to True, but we want it to be False so the loop continues
     player = False
     robot = options[randint(0,2)]
+    #makes sure robot string is lowercase
     robot = robot.lower()
 
