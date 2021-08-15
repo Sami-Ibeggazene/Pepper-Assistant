@@ -1,7 +1,6 @@
-#HAVE EMPTY dataset AND trainer FOLDERS BEFORE RUNNING facedataset.py, HAVE haarcascade_frontalface_default.xml IN SAME FOLDER AS PROGRAM#
+#HAVE EMPTY dataset AND trainer FOLDERS BEFORE RUNNING New_User_Dataset_and_trainer.py, HAVE haarcascade_frontalface_default.xml IN SAME FOLDER AS PROGRAM#
 https://github.com/Itseez/opencv/tree/master/data/haarcascades
 
-1.Use facedataset.py to create a dataset of the face you want recognised and enter an id number 1 larger than the last(starting at 1)
-2.Use facetraining.py to create a yml file from the data
-3.in facerecognition.py add the name of the person in the names array in the order of ID number
-4.Run facerecognition.py and the program will try to find the best match for the face it's presented and prints the name into user.txt
+1.Use New_User_Dataset_and_trainer.py to create a dataset of the face you want recognised and enter an id number 1 larger than the last(starting at 1), thise will edit the trainer yml file
+2.in facerecognition.py add the name of the person in the names array in the order of ID number
+3.Run facerecognition.py and the program will try to find the best match for the face it's presented and prints the name into user.txt
