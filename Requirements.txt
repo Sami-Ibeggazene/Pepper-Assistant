@@ -11,3 +11,4 @@ cv2
 pybullet
 qibullet
 Pillow
+gTTS
