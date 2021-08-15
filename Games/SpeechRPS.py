@@ -65,7 +65,7 @@ while choice == False:
     contin = input('enter "x" to Exit OR press enter to continue')
     if contin == "x":
         choice = True
-
+#overwrites text file with counter
 f = open("text.txt", "w")
 f.write("score: " + str(counter))
 f.close()
