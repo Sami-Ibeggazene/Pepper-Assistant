@@ -10,9 +10,9 @@ with sr.Microphone() as source:
 try:
     print("You said: " + r.recognize_google(audio))
 except sr.UnknownValueError:
-    print("Google Speech Recognition could not understand audio")
+    print("Sorry, Could not understand audio")
 except sr.RequestError as e:
-    print("Could not request results from Google Speech Recognition service; {0}".format(e))
+    print("Speech Recognition request Failed; {0}".format(e))
 
     
 #CODE USED FROM https://www.youtube.com/watch?v=3h2kDnelAC4#
